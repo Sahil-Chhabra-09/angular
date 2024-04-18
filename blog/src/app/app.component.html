@@ -1,6 +1,5 @@
 <h1>Hello Angular {{ title }}</h1>
 <h2>{{ data }}</h2>
-<h2>{{ getValue() }}</h2>
-<app-user-list></app-user-list>
-<app-user-list-inline></app-user-list-inline>
-<app-user-list-template></app-user-list-template>
+<button (click)="getValue(box.value)">Click Me</button>
+
+<input type="text" #box placeholder="event keyup" />

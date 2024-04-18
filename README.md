@@ -113,3 +113,33 @@ it manages : components that need to be exported, modules that need to be import
 it also kind of works as lazy-loading
 
 ### Make and call function
+
+```
+export class AppComponent {
+  title = '17';
+  data = 'Code Step by Step';
+  getValue(name: string) {
+    window.alert(name);
+  }
+}
+
+```
+
+Calling a function on button click:
+
+```
+<button (click)="getValue('Code step by step')">Click Me</button>
+```
+
+### Events (blur, keyup, keydown, mouseover, mouseleave)
+
+<input
+type="text"
+#box
+(keyup)="getValue(box.value)"
+placeholder="event keyup"
+/>
+
+The #box is the id whose value can be accessed throughout the html
+
+#### Getting text box value and printing it

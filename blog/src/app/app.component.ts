@@ -19,7 +19,7 @@ import { UserListTemplateComponent } from './user-list-template/user-list-templa
 export class AppComponent {
   title = '17';
   data = 'Code Step by Step';
-  getValue() {
-    return 'This function gets data';
+  getValue(name: string) {
+    window.alert(name);
   }
 }
