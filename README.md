@@ -143,3 +143,173 @@ placeholder="event keyup"
 The #box is the id whose value can be accessed throughout the html
 
 #### Getting text box value and printing it
+
+```
+<input type="text" #name placeholder="Enter name" name="userName" />
+
+<button (click)="getValue(name.value)">Click</button>
+
+<p>Input value: {{ displayName }}</p>
+<p>Placeholder: {{ name.placeholder }}</p>
+<p>Name: {{ name.name }}</p>
+```
+
+```
+export class AppComponent {
+  title: string = 'Get Input Box Value';
+  displayName: string = '';
+  getValue(name: string) {
+    this.displayName = name;
+  }
+}
+```
+
+#### Counter Button example
+
+```
+<h2>{{ title }}</h2>
+
+<p>Counter Value: {{ count }}</p>
+
+<button (click)="increment()">Increment</button>
+<button (click)="decrement()">Decrement</button>
+<button (click)="reset()">Reset</button>
+```
+
+```
+export class AppComponent {
+  title: string = 'Counter';
+  count: number = 0;
+  increment() {
+    this.count++;
+  }
+  decrement() {
+    this.count--;
+  }
+  reset() {
+    this.count = 0;
+  }
+}
+```
+
+### Stying
+
+#### Internal Styling
+
+```
+<style>
+  .green {
+    color: magenta;
+  }
+</style>
+
+<button (click)="increment()" class="green">Increment</button>
+```
+
+The global styling has lesser priority as the dedicated .component.css file which has lesser priority as internal styling
+
+### Property Binding
+
+For changing property or attribute we use property binding
+
+boolean values are not assignable through interpolation
+
+```
+<input
+  type="text"
+  name="user-name"
+  disabled="{{ disabled }}"
+  value="{{ name }}"
+/>
+<input type="text" name="user-name" [disabled]="disabled" [value]="name" />
+```
+
+```
+export class AppComponent {
+  name: string = 'Random';
+  disabled: boolean = false;
+}
+```
+
+interpolation converts value to string or numeric values, hence disabled is converted to string which results in true
+
+### If-Else Condition
+
+> To use it, we need to import commonModule first
+
+```
+<h1 *ngIf="showName">{{ show }}</h1>
+<h1 *ngIf="!showName">{{ dont }}</h1>
+
+<button (click)="toggleShow()">Toggle</button>
+```
+
+```
+...
+import { CommonModule } from '@angular/common';
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [
+    ...,
+    UserListTemplateComponent,
+    CommonModule,
+  ],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css',
+})
+export class AppComponent {
+  show: string = 'Now you see me';
+  dont: string = "Now you don't";
+  showName: boolean = true;
+  toggleShow() {
+    this.showName = !this.showName;
+  }
+}
+```
+
+OR
+
+```
+<h1 *ngIf="show; then ifblock else elseblock"></h1>
+<ng-template #ifblock>
+  <h1>Now you see me</h1>
+</ng-template>
+<ng-template #elseblock>
+  <h1>Now you don't</h1>
+</ng-template>
+```
+
+### Else-If Condition
+
+```
+<ng-template [ngIf]="showName"></ng-template>
+```
+
+### Switch Case
+
+```
+<div [ngSwitch]="color">
+  <h1 style="color: red" *ngSwitchCase="'red'">Red Color</h1>
+  <h1 style="color: green" *ngSwitchCase="'green'">Green Color</h1>
+  <h1 style="color: blue" *ngSwitchCase="'blue'">Blue Color</h1>
+  <h1 *ngSwitchDefault>Unknown Color</h1>
+</div>
+```
+
+### Loop - \*ngFor
+
+```
+<h1>{{ title }}</h1>
+
+<h3 *ngFor="let item of users">UserName: {{ item }}</h3>
+```
+
+```
+export class AppComponent {
+  title: string = 'For loop';
+  users: string[] = ['Alpha', 'Beta', 'Gamma', 'Zeta'];
+}
+```
+
+> for styling, a div that has inline style property, for [style.color]="green", green is like a variable that is passed down from .component.ts, to apply inline css, we also use single quotes along with double quotes as [style.color] = "'green'"
