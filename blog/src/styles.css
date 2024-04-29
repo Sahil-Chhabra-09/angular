@@ -6,3 +6,7 @@
 .red {
   color: red;
 }
+
+body {
+  margin: 0;
+}

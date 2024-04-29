@@ -313,3 +313,236 @@ export class AppComponent {
 ```
 
 > for styling, a div that has inline style property, for [style.color]="green", green is like a variable that is passed down from .component.ts, to apply inline css, we also use single quotes along with double quotes as [style.color] = "'green'"
+
+### Forms - ngForm
+
+Two types : template based, reactive
+
+```
+<h1>
+  {{ title }}
+</h1>
+
+<form #basicForm="ngForm" (ngSubmit)="getData(basicForm.value)">
+  <input type="text" ngModel name="user" placeholder="Enter user name" />
+  <br />
+  <input type="text" ngModel name="email" placeholder="Enter user email" />
+  <br />
+  <input
+    type="text"
+    ngModel
+    name="password"
+    placeholder="Enter user password"
+  />
+  <br />
+  <button>Register</button>
+</form>
+
+<ul>
+  <li>{{ userData.user }}</li>
+  <li>{{ userData.email }}</li>
+  <li>{{ userData.password }}</li>
+</ul>
+```
+
+```
+import { FormsModule } from '@angular/forms';
+import { NgForm } from '@angular/forms';
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [CommonModule, FormsModule],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css',
+})
+export class AppComponent {
+  title: string = 'Forms';
+  userData: any = {};
+  getData = (data: NgForm) => {
+    console.warn(data);
+    this.userData = data;
+  };
+}
+```
+
+### Todo List
+
+```
+<h1>
+  {{ title }}
+</h1>
+
+<input
+  type="text"
+  name="task"
+  #task
+  placeholder="Enter Text"
+  (keyDown.enter)="addTask(task.value); task.value = ''"
+/>
+
+<button (click)="addTask(task.value); task.value = ''">Add Task</button>
+
+<ul *ngFor="let task of tasks; let i = index">
+  <li (click)="removeTask(i)">{{ task }}</li>
+</ul>
+```
+
+```
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [CommonModule],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css',
+})
+export class AppComponent {
+  title: string = 'Todo list';
+  tasks: string[] = [];
+  addTask = (task: string) => {
+    this.tasks = [...this.tasks, task.trim()];
+  };
+  removeTask = (ind: number) => {
+    let newTasks: string[] = [];
+    this.tasks.map((task, index) => {
+      if (index !== ind) {
+        newTasks = [...newTasks, task];
+      }
+    });
+    this.tasks = newTasks;
+  };
+}
+```
+
+![alt text](image-1.png)
+
+### Send data from Parent Component to Child Component @Input()
+
+```
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ChildComponent } from './child/child.component';
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [CommonModule, ChildComponent],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css',
+})
+export class AppComponent {
+  title: string = 'Passing data from parent to child';
+  parentsData: string = 'Parent Data';
+}
+```
+
+```
+<h1>{{ title }}</h1>
+
+<app-child [data]="parentsData"></app-child>
+```
+
+```
+import { Component } from '@angular/core';
+import { Input } from '@angular/core';
+
+@Component({
+  selector: 'app-child',
+  standalone: true,
+  imports: [],
+  templateUrl: './child.component.html',
+  styleUrl: './child.component.css',
+})
+export class ChildComponent {
+  @Input() data: string = 'Default data';
+}
+```
+
+```
+<p>{{ data }}</p>
+```
+
+### Send data from Child Component to Parent Component @Output()
+
+parent component se function pass krenge to child, child se function call krenge with data, hence : data from child to parent
+
+creating and passing function from parent to child
+
+```
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ChildComponent } from './child/child.component';
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [CommonModule, ChildComponent],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css',
+})
+export class AppComponent {
+  title: string = 'Passing data from child to parent';
+  updateData(item: string) {
+    this.title = item;
+  }
+}
+```
+
+```
+<h1>{{ title }}</h1>
+
+<app-child (updateDataEvent)="updateData($event)"></app-child>
+```
+
+accepting the function and calling it from child component:
+
+```
+<input type="text" #box />
+
+<button (click)="updateDataEvent.emit(box.value)">Update Data</button>
+```
+
+```
+import { Component, EventEmitter, Output } from '@angular/core';
+
+@Component({
+  selector: 'app-child',
+  standalone: true,
+  imports: [],
+  templateUrl: './child.component.html',
+  styleUrl: './child.component.css',
+})
+export class ChildComponent {
+  @Output() updateDataEvent = new EventEmitter<string>();
+}
+```
+
+### Two way binding - banana in a box
+
+Same time pe property ko update krwa ke display krwana, kind of replace the onChange... method.
+
+```
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ChildComponent } from './child/child.component';
+import { FormsModule } from '@angular/forms';
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [CommonModule, ChildComponent, FormsModule],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css',
+})
+export class AppComponent {
+  title: string = 'Two way binding';
+  name: any;
+}
+```
+
+```
+<h1>{{ title }}</h1>
+<input type="text" [(ngModel)]="name" />
+
+<h3>{{ name }}</h3>
+```
+
+### Template Reference Variable

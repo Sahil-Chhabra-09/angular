@@ -1,0 +1,1000 @@
+ 1018  cd ../uvip/
+ 1019  clear
+ 1020  ls
+ 1021  code .
+ 1022  clear 
+ 1023  git clone git@bitbucket.org:vikram-awiros/awiros-nodejs.git
+ 1024  git branch
+ 1025  clear
+ 1026  cd ../
+ 1027  ls
+ 1028  cd uvip/
+ 1029  clear
+ 1030  ls
+ 1031  cd awiros-frontend/
+ 1032  code .
+ 1033  l
+ 1034  ls
+ 1035  l
+ 1036  cd ../../percept-frontend-v1/
+ 1037  ls
+ 1038  cd ../uvip/awiros-
+ 1039  cd ../uvip/awiros-frontend/
+ 1040  clear
+ 1041  ls
+ 1042  npm i
+ 1043  git branch
+ 1044  git checkout fix/bugs 
+ 1045  clera
+ 1046  clear
+ 1047  git branch
+ 1048  git log
+ 1049  clear
+ 1050  git pull origin development --rebase
+ 1051  clear
+ 1052  git log
+ 1053  clear
+ 1054  git branch
+ 1055  git push origin fix/bugs 
+ 1056  git push origin fix/bugs -f
+ 1057  clear
+ 1058  git branch
+ 1059  git fetch-a
+ 1060  git fetch -a
+ 1061  git log
+ 1062  clear
+ 1063  git branch
+ 1064  git branch -a
+ 1065  clear
+ 1066  git branch
+ 1067  git fetch -a
+ 1068  git checkout fix/sidebar 
+ 1069  clear
+ 1070  git branch
+ 1071  git log
+ 1072  clear
+ 1073  git log
+ 1074  clear
+ 1075  git branch
+ 1076  git checkout fix/bugs 
+ 1077  clear
+ 1078  git cherry-pick 1b76857970f20f897d73591a9145be7fce1e4eeb
+ 1079  clera
+ 1080  clear
+ 1081  git branch
+ 1082  git lolg
+ 1083  git log
+ 1084  clear
+ 1085  git branch
+ 1086  git push origin fix/bugs 
+ 1087  clear
+ 1088  ssh 10.15.16.146
+ 1089  clear
+ 1090  ls
+ 1091  clear
+ 1092  ping bitbucket.org
+ 1093  clear
+ 1094  ls
+ 1095  git branch
+ 1096  git checkout fix/user-avatar 
+ 1097  clear
+ 1098  git branch
+ 1099  git log
+ 1100  clear
+ 1101  git status
+ 1102  git diff
+ 1103  clear
+ 1104  git add .
+ 1105  git commit --amend
+ 1106  clear
+ 1107  git branch
+ 1108  git push origin fix/user-avatar 
+ 1109  git push origin fix/user-avatar -f
+ 1110  clear
+ 1111  git branch
+ 1112  git checkout fix/fixes 
+ 1113  clear
+ 1114  git log
+ 1115  clear
+ 1116  git branch
+ 1117  git checkout fix/bugs 
+ 1118  clear
+ 1119  git log
+ 1120  clear
+ 1121  code .
+ 1122  cd
+ 1123  clear
+ 1124  ls
+ 1125  cd Desktop/
+ 1126  ls
+ 1127  open percept 
+ 1128  clear
+ 1129  git branch
+ 1130  git log
+ 1131  clear
+ 1132  git pull origin development --rebase
+ 1133  clear
+ 1134  git log
+ 1135  clear
+ 1136  git branch
+ 1137  git checkout fix/user-avatar 
+ 1138  clear
+ 1139  git branch
+ 1140  git checkout fix/user-avatar 
+ 1141  clear
+ 1142  git branch
+ 1143  clear
+ 1144  git status
+ 1145  code .
+ 1146  git add .
+ 1147  git commit --amend
+ 1148  clear
+ 1149  git push origin fix/user-avatar 
+ 1150  git push origin fix/user-avatar -f
+ 1151  clear
+ 1152  cd ../uvip/
+ 1153  clear
+ 1154  ls
+ 1155  cd awiros-frontend/
+ 1156  clear
+ 1157  ls
+ 1158  npm i
+ 1159  git branch
+ 1160  clear
+ 1161  git fetch -a
+ 1162  git branch
+ 1163  git branch -a
+ 1164  clear
+ 1165  git checkout staging 
+ 1166  clear
+ 1167  git branch
+ 1168  ls
+ 1169  clear
+ 1170  ls
+ 1171  npm i
+ 1172  clear
+ 1173  code .
+ 1174  npm start
+ 1175  code .
+ 1176  git branch
+ 1177  git status
+ 1178  git branch
+ 1179  git log
+ 1180  clear
+ 1181  git add .
+ 1182  git commit --amend
+ 1183  clear
+ 1184  git log
+ 1185  clear
+ 1186  git branch
+ 1187  git push origin feat/compliance-popup 
+ 1188  git branch
+ 1189  clear
+ 1190  git push origin feat/compliance-popup 
+ 1191  git push origin feat/compliance-popup -f
+ 1192  clear
+ 1193  cd De
+ 1194  cd /
+ 1195  cd ~
+ 1196  cle3ar
+ 1197  clear
+ 1198  cd Desktop/
+ 1199  ls
+ 1200  open percept 
+ 1201  open AWIROS\ history 
+ 1202  clear
+ 1203  cd ~
+ 1204  cd awiros/ssh/percept-backend-v1/
+ 1205  npm start
+ 1206  cd awiros/ssh/percept-frontend-v1/
+ 1207  clear
+ 1208  yarn start
+ 1209  clera
+ 1210  clear
+ 1211  yarn start
+ 1212  clear
+ 1213  yarn start
+ 1214  clear
+ 1215  yarn start
+ 1216  cd .././
+ 1217  cd ../
+ 1218  ls
+ 1219  cd
+ 1220  s.
+ 1221  l;s
+ 1222  ls
+ 1223  clear
+ 1224  l
+ 1225  cd Desktop/
+ 1226  l;s
+ 1227  ls
+ 1228  cd pp
+ 1229  ls
+ 1230  mkdir angular
+ 1231  cd angular/
+ 1232  l
+ 1233  clear
+ 1234  cd 
+ 1235  ls
+ 1236  cd awiros/ssh/uvip/
+ 1237  ls
+ 1238  cd awiros-fron
+ 1239  cd awiros-frontend/
+ 1240  code .
+ 1241  cd
+ 1242  ls
+ 1243  cd Desktop/
+ 1244  ls
+ 1245  cd pp/
+ 1246  ls
+ 1247  cd angular/
+ 1248  ls
+ 1249  git remote add origin https://github.com/Sahil-Chhabra-09/angular.git
+ 1250  git init
+ 1251  git remote add origin https://github.com/Sahil-Chhabra-09/angular.git
+ 1252  clear
+ 1253  touch README.md
+ 1254  code .
+ 1255  clear
+ 1256  node --version
+ 1257  npm -v
+ 1258  clear
+ 1259  npm i -g @angular/cli
+ 1260  sudo npm i -g @angular/cli
+ 1261  npm -v 
+ 1262  ng --version
+ 1263  ng version
+ 1264  clear
+ 1265  ls
+ 1266  ng new blog
+ 1267  cd blog/
+ 1268  ng serve
+ 1269  clear
+ 1270  code .
+ 1271  cd 
+ 1272  cd awiros/ssh/percept-frontend-v1/
+ 1273  clear
+ 1274  yarn start
+ 1275  clear
+ 1276  history
+ 1277  git stats
+ 1278  git status
+ 1279  clear
+ 1280  ls
+ 1281  git add .
+ 1282  git commit -m "Setup"
+ 1283  git config user.email "sahil.chh 718"
+ 1284  git config user.email "sahil.chh718@gmail.com"
+ 1285  git config user.name "Sahil Chhabra"
+ 1286  clear
+ 1287  git commit -m "Setup"
+ 1288  clear
+ 1289  l;s
+ 1290  ls -a
+ 1291  cd ../
+ 1292  ls
+ 1293  ls -a
+ 1294  git log
+ 1295  git add .
+ 1296  git commit --amend 
+ 1297  clear
+ 1298  ls
+ 1299  clear
+ 1300  ng version
+ 1301  code .
+ 1302  cd ../../percept-frontend-v1/
+ 1303  clear
+ 1304  code .
+ 1305  cd 
+ 1306  cd awiros/ssh/percept-frontend-v1/
+ 1307  celar
+ 1308  clear
+ 1309  code .
+ 1310  code .\
+ 1311  code .
+ 1312  cd ../../percept-frontend-v1/
+ 1313  clear
+ 1314  code .
+ 1315  cd
+ 1316  cd Desktop/
+ 1317  ls
+ 1318  open temp\ token 
+ 1319  git status
+ 1320  cd ../
+ 1321  git add .
+ 1322  git commit -m "ng"
+ 1323  clear
+ 1324  git branhc
+ 1325  git branch
+ 1326  git push origin master
+ 1327  clear
+ 1328  ls
+ 1329  cd blog/
+ 1330  clear
+ 1331  ls
+ 1332  ng g c user-list
+ 1333  clear
+ 1334  ng g c user-list-inline --inline-style
+ 1335  ng g c user-list-template --inline-template
+ 1336  clear
+ 1337  ifconfig
+ 1338  ng serve
+ 1339  ls
+ 1340  cd blog/
+ 1341  ng serve
+ 1342  lcear
+ 1343  clear
+ 1344  ng serv
+ 1345  ng serve
+ 1346  clera
+ 1347  ng serve --watch
+ 1348  code .
+ 1349  git branch
+ 1350  git pull origin development 
+ 1351  clear
+ 1352  git brasnch
+ 1353  git branch
+ 1354  git checkout fix/fixes 
+ 1355  ls
+ 1356  git stash
+ 1357  clear
+ 1358  git checkout fix/fixes 
+ 1359  ls
+ 1360  git log
+ 1361  clear
+ 1362  git branch 
+ 1363  git checkout development 
+ 1364  git branch -d fix/fixes 
+ 1365  clear
+ 1366  git branch -d fix/fixes
+ 1367  git branch -D fix/fixes
+ 1368  clear
+ 1369  ls
+ 1370  git branch
+ 1371  git pull origin development 
+ 1372  code .\
+ 1373  code .
+ 1374  clear
+ 1375  git checkout devc 
+ 1376  git status
+ 1377  git merge --abort
+ 1378  clera
+ 1379  clear
+ 1380  git branch
+ 1381  git checkout devc
+ 1382  git log
+ 1383  clera
+ 1384  clear
+ 1385  git pull origin development 
+ 1386  git status
+ 1387  gi tbranch
+ 1388  git branch
+ 1389  clear
+ 1390  git log
+ 1391  clear
+ 1392  code .
+ 1393  clear
+ 1394  cd
+ 1395  cd Desktop/
+ 1396  ls
+ 1397  open percept 
+ 1398  clear
+ 1399  ls
+ 1400  cd p
+ 1401  cd pp
+ 1402  clear 
+ 1403  ls
+ 1404  cd angular/
+ 1405  aclear
+ 1406  clear
+ 1407  code .
+ 1408  cd
+ 1409  cd awiros/ssh/uvip/awiros-frontend/
+ 1410  clear
+ 1411  kls
+ 1412  ls
+ 1413  clear
+ 1414  ls
+ 1415  npm start
+ 1416  cd Desktop/
+ 1417  ls
+ 1418  cd pp/
+ 1419  ls
+ 1420  cd angular/
+ 1421  clear
+ 1422  ls
+ 1423  git status
+ 1424  git add .
+ 1425  git commit -m "day1 done"
+ 1426  clear
+ 1427  git push origin master
+ 1428  cd
+ 1429  cd DE
+ 1430  cd Desktop/
+ 1431  ls
+ 1432  open temp\ token 
+ 1433  po
+ 1434  cd Desktop/
+ 1435  ls
+ 1436  clear
+ 1437  touch whats_better_than_local_storage
+ 1438  systemctl start mongod
+ 1439  cd ../awiros/ssh/percept-backend-v1/
+ 1440  clear
+ 1441  ls
+ 1442  code .
+ 1443  cd
+ 1444  cd Desktop/
+ 1445  ls
+ 1446  open AWIROS\ history 
+ 1447  cd ../awiros/ssh/percept-backend-v1/
+ 1448  lclear
+ 1449  clear
+ 1450  ls
+ 1451  open .
+ 1452  code .
+ 1453  cd 
+ 1454  cd Desktop/
+ 1455  sl
+ 1456  ls
+ 1457  open percept 
+ 1458  cd ../awiros/ssh/percept-frontend-v1/
+ 1459  clear
+ 1460  code .
+ 1461  clera
+ 1462  clear
+ 1463  cd ../
+ 1464  cd percept-frontend-v1/
+ 1465  clear
+ 1466  yarn start
+ 1467  clea4r
+ 1468  cd ../uvip/awiros-frontend/n
+ 1469  cd ../uvip/awiros-frontend/
+ 1470  clear
+ 1471  npm start
+ 1472  cd ../
+ 1473  clear
+ 1474  lss
+ 1475  lks
+ 1476  ls
+ 1477  git branch
+ 1478  git log
+ 1479  clear
+ 1480  cd blog/
+ 1481  clear
+ 1482  ls
+ 1483  code .
+ 1484  cd ../
+ 1485  clear
+ 1486  git add .
+ 1487  git log
+ 1488  git commit -m "day2 done"
+ 1489  clear
+ 1490  git branch
+ 1491  git push origin master
+ 1492  clear
+ 1493  cd De
+ 1494  cd
+ 1495  cd Desktop/
+ 1496  ls
+ 1497  open temp\ token 
+ 1498  cd ../
+ 1499  ls
+ 1500  clear
+ 1501  open .
+ 1502  code .
+ 1503  git branch
+ 1504  git log
+ 1505  cl4ear
+ 1506  clear
+ 1507  git pull origin development --rebase
+ 1508  git pull origin development 
+ 1509  clear
+ 1510  code 
+ 1511  code .
+ 1512  cd
+ 1513  cd awiros/ssh/percept-frontend-v1/
+ 1514  clear
+ 1515  sl
+ 1516  ls
+ 1517  clear
+ 1518  code 
+ 1519  code .
+ 1520  yarn start
+ 1521  cd 
+ 1522  cd Desktop/
+ 1523  clear
+ 1524  ls
+ 1525  cd pp/
+ 1526  ls
+ 1527  cd angular/
+ 1528  clear
+ 1529  code .
+ 1530  cd blog/
+ 1531  clear
+ 1532  ng serve
+ 1533  clear
+ 1534  ng serve --watch
+ 1535  clear
+ 1536  ng serve --watch
+ 1537  clear
+ 1538  ng serve --watch
+ 1539  po
+ 1540  code .
+ 1541  code .
+ 1542  git branch
+ 1543  clerA
+ 1544  CLEAR
+ 1545  clear
+ 1546  ls
+ 1547  git branch
+ 1548  clear
+ 1549  git branhc
+ 1550  git branch
+ 1551  git pull origin development --rebase
+ 1552  clear
+ 1553  git log
+ 1554  clear
+ 1555  code .
+ 1556  clear
+ 1557  git branch
+ 1558  clear
+ 1559  git branch
+ 1560  clear
+ 1561  git branch
+ 1562  git status
+ 1563  clear
+ 1564  git status
+ 1565  git branch
+ 1566  clear
+ 1567  git pull origin staging --rebase
+ 1568  git add .
+ 1569  git stash
+ 1570  clear
+ 1571  git status
+ 1572  git stash list
+ 1573  clear
+ 1574  git branch
+ 1575  git pull origin staging --rebase
+ 1576  clear
+ 1577  git stash pop
+ 1578  clear
+ 1579  ifconfig
+ 1580  cd ../../percept-backend-v1/
+ 1581  clear
+ 1582  git fetch -a
+ 1583  clear
+ 1584  git branch
+ 1585  git branch -a
+ 1586  git checkout feat/scanTags 
+ 1587  git add .
+ 1588  git stagh
+ 1589  git stash
+ 1590  git checkout feat/scanTags 
+ 1591  clear
+ 1592  git stash pop
+ 1593  code .
+ 1594  git status
+ 1595  git stash
+ 1596  clear
+ 1597  git branch
+ 1598  git fetch -a
+ 1599  git branch
+ 1600  git branch -a
+ 1601  git checkout fix/latest-bugs 
+ 1602  clear
+ 1603  git  branch
+ 1604  git checkout devc 
+ 1605  htop
+ 1606  sudo apt install htop
+ 1607  htop
+ 1608  git branch
+ 1609  git status
+ 1610  code .
+ 1611  git add .
+ 1612  git stash
+ 1613  git branch
+ 1614  git checkout fix/latest-bugs 
+ 1615  git stash pop
+ 1616  clear
+ 1617  git branch
+ 1618  clear
+ 1619  ping google.com
+ 1620  clear
+ 1621  ifconfig
+ 1622  clear
+ 1623  git brnac
+ 1624  git branch
+ 1625  git stash
+ 1626  clear
+ 1627  git log
+ 1628  clear
+ 1629  git brnach
+ 1630  git branch
+ 1631  git checkout devc 
+ 1632  clear
+ 1633  git pull origin development 
+ 1634  ping google.com
+ 1635  clear
+ 1636  ping google.com
+ 1637  systemctl status mongod
+ 1638  systemctl start mongod
+ 1639  systemctl status mongod
+ 1640  git branch
+ 1641  git pull origin feat/scanTags 
+ 1642  git status
+ 1643  git stash
+ 1644  code .
+ 1645  git status
+ 1646  git add .
+ 1647  clear
+ 1648  git status
+ 1649  git stash
+ 1650  clear
+ 1651  git branch
+ 1652  git pull origin feat/scanTags 
+ 1653  clear
+ 1654  git stash pop
+ 1655  clear
+ 1656  git add .
+ 1657  cle4ar
+ 1658  clear
+ 1659  cd awiros/ssh/percept-frontend-v1/
+ 1660  clear
+ 1661  yarn start
+ 1662  git branch
+ 1663  git add .
+ 1664  git commit --amend
+ 1665  git push origin devc -f
+ 1666  git branch
+ 1667  git add .
+ 1668  git commit --amend
+ 1669  clear
+ 1670  git branch
+ 1671  git status
+ 1672  clear
+ 1673  git branch
+ 1674  git add .g
+ 1675  git add .
+ 1676  git status
+ 1677  code .
+ 1678  git commit --amend
+ 1679  clear
+ 1680  git branch
+ 1681  git push origin devc 
+ 1682  git push origin devc -f
+ 1683  cd ../uvip/awiros-frontend/
+ 1684  clear
+ 1685  ls
+ 1686  clear
+ 1687  npm start
+ 1688  clear
+ 1689  npm start
+ 1690  git branch
+ 1691  clear
+ 1692  git status
+ 1693  git stash pop
+ 1694  clear
+ 1695  git stash pop
+ 1696  git add .
+ 1697  git stash pop
+ 1698  clear
+ 1699  systemctl status mongod
+ 1700  systemctl start mongod
+ 1701  code .
+ 1702  clear
+ 1703  git branch
+ 1704  cd
+ 1705  cd Desktop/
+ 1706  open percept 
+ 1707  code .
+ 1708  git branc
+ 1709  git branch
+ 1710  git status
+ 1711  git add .
+ 1712  git stash
+ 1713  clear
+ 1714  git branch
+ 1715  git pull origin feat/scanTags 
+ 1716  clear
+ 1717  git stash list
+ 1718  git stash pop
+ 1719  code .
+ 1720  git add .
+ 1721  git stash pop
+ 1722  clear
+ 1723  code .
+ 1724  code .
+ 1725  clear
+ 1726  git branch
+ 1727  git add .
+ 1728  git log
+ 1729  clear
+ 1730  git status
+ 1731  git commit --amend
+ 1732  clear
+ 1733  git branch
+ 1734  git push origin devc 
+ 1735  git push origin devc -f
+ 1736  code .
+ 1737  git branch
+ 1738  git log
+ 1739  clear
+ 1740  git branhc
+ 1741  git branch
+ 1742  git status
+ 1743  clear
+ 1744  git branch
+ 1745  git status
+ 1746  git log
+ 1747  git add .
+ 1748  git commit -m "refactor: table placeholder and sorting"
+ 1749  git add .
+ 1750  git commit -m "refactor: table placeholder and sorting"
+ 1751  clear
+ 1752  git status
+ 1753  git add .
+ 1754  git commit -m "refactor: table placeholder and sorting"
+ 1755  clear
+ 1756  git branch
+ 1757  git pull origin development --rebase
+ 1758  code .
+ 1759  git add .
+ 1760  git rebase --continue
+ 1761  git add .
+ 1762  git rebase --continue
+ 1763  clear
+ 1764  git status
+ 1765  clear
+ 1766  git log
+ 1767  clear
+ 1768  git branch
+ 1769  git push origin devc
+ 1770  git log
+ 1771  clear
+ 1772  git push origin devc
+ 1773  git push origin devc -f
+ 1774  clear
+ 1775  git branch
+ 1776  git add .
+ 1777  git log
+ 1778  clear
+ 1779  git commit --amend
+ 1780  clear
+ 1781  git branch
+ 1782  git push origin devc 
+ 1783  git push origin devc -f
+ 1784  clear
+ 1785  systemctl status mongod
+ 1786  clear
+ 1787  git branch
+ 1788  git status
+ 1789  git stash
+ 1790  clear
+ 1791  git branch
+ 1792  git pull origin feat/scanTags 
+ 1793  clear
+ 1794  git branch
+ 1795  git stash pop
+ 1796  clear
+ 1797  git branch
+ 1798  git add .
+ 1799  git log
+ 1800  clear
+ 1801  git branch
+ 1802  git commit --amend
+ 1803  clear
+ 1804  git log
+ 1805  clear
+ 1806  git branch
+ 1807  git push origin devc 
+ 1808  git push origin devc -f
+ 1809  git add .
+ 1810  git commit --amend
+ 1811  clear
+ 1812  git branch
+ 1813  git log
+ 1814  clear
+ 1815  git push origin devc 
+ 1816  git push origin devc -f
+ 1817  clear
+ 1818  git add .
+ 1819  git commit --amend
+ 1820  clear
+ 1821  git branch
+ 1822  git log
+ 1823  clear
+ 1824  git status
+ 1825  git push origin devc
+ 1826  git push origin devc -f
+ 1827  clear
+ 1828  whoami
+ 1829  clear
+ 1830  htop
+ 1831  sysstat
+ 1832  apt install sysstat
+ 1833  sudo apt install sysstat
+ 1834  clear
+ 1835  sysstat
+ 1836  sysstat --version 
+ 1837  sar --version
+ 1838  sar -v
+ 1839  clear
+ 1840  sar -u
+ 1841  history
+ 1842  sudo apt remove sysstat
+ 1843  clear
+ 1844  git status
+ 1845  clear
+ 1846  uname -a
+ 1847  lsb_release -a
+ 1848  cat /proc/cpuinfo
+ 1849  free -h
+ 1850  df -h
+ 1851  du -h
+ 1852  clear
+ 1853  lsusb
+ 1854  ip addr show
+ 1855  uptime
+ 1856  clear
+ 1857  lsblk
+ 1858  hwinfo
+ 1859  sudo apt install hwinfo
+ 1860  sudo apt autoremove
+ 1861  clear
+ 1862  hwinfo
+ 1863  clear
+ 1864  hwinfo > hwinfo.txt
+ 1865  open hwinfo.txt 
+ 1866  rm hwinfo.txt 
+ 1867  clear
+ 1868  cd De
+ 1869  cd 
+ 1870  cd Desktop/
+ 1871  ls
+ 1872  clear
+ 1873  cd pp
+ 1874  clear
+ 1875  ls
+ 1876  cd angular/
+ 1877  clear
+ 1878  ls
+ 1879  cd blog/
+ 1880  clear
+ 1881  ls
+ 1882  cat README.md 
+ 1883  CLEAR
+ 1884  cd ser
+ 1885  cd src/
+ 1886  ls
+ 1887  cd ../../
+ 1888  code .
+ 1889  clear
+ 1890  ls
+ 1891  touch DOCKER.md
+ 1892  clear
+ 1893  code DOCKER.md 
+ 1894  cd
+ 1895  docker pull mongo
+ 1896  clear
+ 1897  code .
+ 1898  cd
+ 1899  cd Desktop/
+ 1900  ls
+ 1901  cd pp
+ 1902  clear
+ 1903  sl
+ 1904  ls
+ 1905  cd angular/
+ 1906  touch Dockerfile
+ 1907  clear
+ 1908  ls
+ 1909  code Dockerfile 
+ 1910  clera
+ 1911  docker build -t getting-started .
+ 1912  sudo apt install docker.io
+ 1913  clear
+ 1914  history
+ 1915  docker build -t getting-started .
+ 1916  sudo docker build -t getting-started .
+ 1917  ls
+ 1918  cd Dock
+ 1919  cat Dockerfile 
+ 1920  clear
+ 1921  ls -a
+ 1922  docker ps
+ 1923  sudo docker ps
+ 1924  docker run -p 127.0.0.1:3000:3000 getting-started
+ 1925  sudo docker run -p 127.0.0.1:3000:3000 getting-started
+ 1926  ks'
+ 1927  clear
+ 1928  ls
+ 1929  clear
+ 1930  ls
+ 1931  code .
+ 1932  history
+ 1933  sudo docker run -p 127.0.0.1:3000:3000 getting-started
+ 1934  docker build -t getting-started .
+ 1935  suod docker build -t getting-started .
+ 1936  sudo suod docker build -t getting-started .
+ 1937  clear
+ 1938  ls
+ 1939  sudo docker build -t getting-started .
+ 1940  clear
+ 1941  ls
+ 1942  history
+ 1943  sudo docker run -p 127.0.0.1:4000:4000 getting-started
+ 1944  sudo docker build -t getting-started .
+ 1945  sudo docker run -p 127.0.0.1:4000:4000 getting-started
+ 1946  sudo docker build -t getting-started .
+ 1947  sudo docker run -p 127.0.0.1:4000:4000 getting-started
+ 1948  code .
+ 1949  cd ../percept-frontend-v1/
+ 1950  clear
+ 1951  ls
+ 1952  code .
+ 1953  clear
+ 1954  git branch
+ 1955  git status
+ 1956  git diff src/handlers/auth/getSalt.ts
+ 1957  clear
+ 1958  git status
+ 1959  git branch
+ 1960  git log
+ 1961  clear
+ 1962  git log
+ 1963  clear
+ 1964  git add .
+ 1965  git commit -m "fix: bugs"
+ 1966  clear
+ 1967  git branch
+ 1968  git push origin devc -f
+ 1969  git branch
+ 1970  git log
+ 1971  clera
+ 1972  clerra
+ 1973  clera
+ 1974  clear
+ 1975  git reset --soft HEAD~1
+ 1976  git status
+ 1977  code .
+ 1978  git add .
+ 1979  git status
+ 1980  git commit -m "fix: bugs"
+ 1981  clear
+ 1982  git branch
+ 1983  git push origin devc
+ 1984  git push origin devc -f
+ 1985  clear
+ 1986  code .
+ 1987  git branch
+ 1988  git log
+ 1989  clear
+ 1990  git status
+ 1991  git add .
+ 1992  git commit -m "feat: scan-tags"
+ 1993  git add .
+ 1994  git commit -m "feat: scan-tags"
+ 1995  git branch
+ 1996  git log
+ 1997  clear
+ 1998  git push origin devc
+ 1999  clear
+ 2000  code .
+ 2001  cd
+ 2002  cd Desktop/
+ 2003  ls
+ 2004  cd pp/
+ 2005  clear
+ 2006  ls
+ 2007  cd angular/
+ 2008  celra
+ 2009  clear
+ 2010  s
+ 2011  ls
+ 2012  l
+ 2013  code .
+ 2014  ls
+ 2015  rm Dockerfile 
+ 2016  clear
+ 2017  history > history.txt
