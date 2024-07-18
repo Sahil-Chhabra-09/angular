@@ -26,6 +26,8 @@ File structure:
 - tsconfig.app.json -> application typescript configurations
 - tsconfig.spec.json -> typescript configurations for spec file
 
+.html files are called template files and .ts files are called class files
+
 ### app.component.ts
 
 ```
@@ -232,6 +234,8 @@ export class AppComponent {
 ```
 
 interpolation converts value to string or numeric values, hence disabled is converted to string which results in true
+
+Boolean values cannot be assigned through interpolation because interpolation ({{ ... }}) in Angular is designed for rendering string values in the HTML template. It converts the expression inside the curly braces into a string and inserts it into the DOM. Boolean values, on the other hand, are meant to be used directly in Angular templates or bindings without conversion to strings.
 
 ### If-Else Condition
 
@@ -546,3 +550,52 @@ export class AppComponent {
 ```
 
 ### Template Reference Variable
+
+Getting all the attributes of input tags, etc. in the html file and can send it to .tsx file through function call - through #
+
+![alt text](image-2.png)
+
+### Pipes
+
+converts data format from one form to other, can be used in the .html files only and not the .tsx files
+
+converting title to uppercase
+![alt text](image-3.png)
+
+so, instead of using the dot operator to access the functions or properties, we use pipes in the .html file only.
+
+![alt text](image-4.png)
+
+### Advance Pipes
+
+using params with pipes:
+
+![alt text](image-5.png)
+
+printing an object on the screen :
+![alt text](image-6.png)
+
+![alt text](image-7.png)
+
+### Custom Pipes
+
+command to create a custom pipe:
+
+> ng g p pipes/usdToInr
+
+g-> generate
+p-> pipe
+
+generates all custom pipes inside a pipe folder
+
+![alt text](image-8.png)
+
+![alt text](image-9.png)
+
+### Forms
+
+![alt text](image-10.png)
+
+Template driven forms: most of the work is in the html page
+
+Reactive forms: when entire handling is done in the .tsx
